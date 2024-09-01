@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+#dlt{
+  margin-left: 150px;
+}
+#crsbtn{
+  margin-left: -90px;
+   font-size: 25px;
+  color: red;
+}
+#chkbtn{
+  margin-left: 20px;
+  font-size: 25px;
+  color: green;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+input{
+  width:25vw;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+h1{
+  color: white;
+}
+.input-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.input-section button{
+  padding: 5px 10px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid green;
+  width: 8vw;
+  padding:5px 0px;
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+li{
+  border: 1px solid white;
+  list-style-type: none;
+  width: 23vw;
+  padding: 15px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+i{  
+  cursor: pointer;
+}
+.list-section ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 110px;
+}
+.list-section ul input{
+  margin-top: 20px;
+  width: 23vw;
+  margin-right: 1px;
+}
